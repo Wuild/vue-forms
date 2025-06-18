@@ -1,0 +1,22 @@
+# Source files
+*.ts
+!*.d.ts
+
+# Config files
+tsconfig.json
+rollup.config.js
+.gitignore
+
+# Development files
+node_modules
+coverage
+.vscode
+.idea
+
+# Test files
+__tests__
+*.spec.ts
+*.test.ts
+
+# CI/CD
+.github
