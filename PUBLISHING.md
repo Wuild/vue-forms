@@ -1,6 +1,6 @@
-# Publishing Guide for Vue Form Handler
+# Publishing Guide for @wuild/vue-forms
 
-This document provides instructions for publishing the Vue Form Handler package to npm.
+This document provides instructions for publishing the @wuild/vue-forms package to npm.
 
 ## Preparation Checklist
 
@@ -36,7 +36,7 @@ npm pack
 
 # This creates a .tgz file that you can install in another project
 # In your test project
-npm install /path/to/vue-form-handler-1.0.0.tgz
+npm install /path/to/wuild-vue-forms-1.0.0.tgz
 ```
 
 ## Publishing to npm
@@ -89,4 +89,4 @@ npm publish
 
 - If you get permission errors, make sure you're logged in to npm correctly
 - If the package name is taken, choose a different name in `package.json`
-- If you need to unpublish a version (within 72 hours of publishing): `npm unpublish vue-form-handler@1.0.0`
+- If you need to unpublish a version (within 72 hours of publishing): `npm unpublish @wuild/vue-forms@1.0.0`

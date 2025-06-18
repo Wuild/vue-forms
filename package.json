@@ -1,5 +1,5 @@
 {
-  "name": "vue-forms",
+  "name": "@wuild/vue-forms",
   "version": "1.0.0",
   "description": "A Vue 3 plugin for easy form handling with validation and error management",
   "main": "dist/index.js",

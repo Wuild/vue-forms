@@ -1,4 +1,4 @@
-# Vue Form Handler
+# @wuild/vue-forms
 
 A lightweight Vue 3 plugin for easy form handling with validation and error management.
 
@@ -84,16 +84,16 @@ const handleSubmit = async (data) => {
       },
       body: JSON.stringify(data)
     })
-    
+
     if (!response.ok) {
       const errorData = await response.json()
       throw { response: { data: errorData } }
     }
-    
+
     // Handle successful submission
     alert('Form submitted successfully!')
     form.reset()
-    
+
     return await response.json()
   } catch (error) {
     // Error handling is automatically done by the form handler
