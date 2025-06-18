@@ -5,9 +5,9 @@ A lightweight Vue 3 plugin for easy form handling with validation and error mana
 ## Installation
 
 ```bash
-npm install vue-form-handler
+npm install @wuild/vue-forms
 # or
-yarn add vue-form-handler
+yarn add @wuild/vue-forms
 ```
 
 ## Features
@@ -25,7 +25,7 @@ yarn add vue-form-handler
 ```js
 // main.js or main.ts
 import { createApp } from 'vue'
-import { FormPlugin } from 'vue-form-handler'
+import { FormPlugin } from '@wuild/vue-forms'
 import App from './App.vue'
 
 const app = createApp(App)
@@ -65,7 +65,7 @@ app.mount('#app')
 </template>
 
 <script setup>
-import { useForm } from 'vue-form-handler'
+import { useForm } from '@wuild/vue-forms'
 
 // Initialize form with default values
 const form = useForm({
